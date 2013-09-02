@@ -2,7 +2,7 @@
 <html lang="zh-CN">
  <head> 
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
-  <title>Customer</title> 
+  <title>Contact</title> 
   <meta name="generator" content="WordPress 3.5.2" /> 
   <meta name="robots" content="follow, all" /> 
   <link rel="stylesheet" href="static/wp-content/themes/ecobiz/style.css" type="text/css" media="screen" /> 
@@ -72,104 +72,116 @@ body {background-image: url(static/wp-content/themes/ecobiz/images/pattern/grid1
      </div> 
     </div> 
     <!-- Header End  --> 
-                  
-      <!-- Page Heading --> 
-      <div id="page-heading">
-        <img src="http://imediapixel.com/demo/ecobiz/wp-content/themes/ecobiz/images/page-heading.jpg" alt="" />
-        <div class="heading-text">
-          <h3>Testimonial</h3>
+                
+              <!-- Page Heading --> 
+        <div id="page-heading">
+          <img src="http://imediapixel.com/demo/ecobiz/wp-content/themes/ecobiz/images/page-heading.jpg" alt="" />
+          <div class="heading-text">
+            <h3>Contact</h3>
+            <p>Lorem ipsum dolor sit amet, rutrum lectus non libero molestie pellentesque</p>
+          </div>
         </div>
-      </div>
-      <!-- Page Heading End -->
-      <div class="clear"></div>
+        <!-- Page Heading End -->
+            <div class="clear"></div>
       
       <div class="center">
                           <div class="breadcrumb">
-            <div class="breadcrumb breadcrumbs"><div class="breadcrumbs-plus"><p><span class="breadcrumbs-title">You are here: </span><a href="http://imediapixel.com/demo/ecobiz/" class="home">Home</a> <span class='separator'>&raquo;</span> Testimonial</p></div></div>          </div>
-                <!-- Main Content Wrapper -->
-        <div class="maincontent">
-          <h4>What Our Client Says</h4>
-          <ul id="testilist">
-                                        <li>
-            <div class="boximg-blog">
-                            <img src="http://imediapixel.com/demo/ecobiz/wp-content/uploads/2011/05/people1.jpg" alt="" class="boximg-pad" />
-                        </div>
-            <div class="postbox">
-            <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a  lacus arcu, blandit bibendum arcu. Donec vestibulum ullamcorper metus,  sed pharetra massa porta nec. Quisque mollis dignissim urna. Cras tellus  lorem</p>
-</blockquote>
-            <p class="testiname">Bang ALi</p>
-           </div>
-           <div class="spacer"></div>
-          </li>            
-                              <li>
-            <div class="boximg-blog">
-                            <img src="http://imediapixel.com/demo/ecobiz/wp-content/uploads/2011/05/people2.jpg" alt="" class="boximg-pad" />
-                        </div>
-            <div class="postbox">
-            <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a  lacus arcu, blandit bibendum arcu. Donec vestibulum ullamcorper metus,  sed pharetra massa porta nec. Quisque mollis dignissim urna. Cras tellus  lorem</p>
-</blockquote>
-            <p class="testiname">Kata Bapak TEBE</p>
-           </div>
-           <div class="spacer"></div>
-          </li>            
-                              <li>
-            <div class="boximg-blog">
-                            <img src="http://imediapixel.com/demo/ecobiz/wp-content/uploads/2011/05/people3.jpg" alt="" class="boximg-pad" />
-                        </div>
-            <div class="postbox">
-            <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a  lacus arcu, blandit bibendum arcu. Donec vestibulum ullamcorper metus,  sed pharetra massa porta nec. Quisque mollis dignissim urna. Cras tellus  lorem, viverra eget tristique at, scelerisque non nulla.</p>
-</blockquote>
-            <p class="testiname">Mr. Madit Musyawarah</p>
-           </div>
-           <div class="spacer"></div>
-          </li>            
-                              </ul>
-          <div class="clear"></div>
-        </div>
-        <!-- Main Content Wrapper End -->
-        
-                                                
-        <!-- Sidebar -->
-        <div id="sidebar">
-              
+            <div class="breadcrumb breadcrumbs"><div class="breadcrumbs-plus"><p><span class="breadcrumbs-title">You are here: </span><a href="http://imediapixel.com/demo/ecobiz/" class="home">Home</a> <span class='separator'>&raquo;</span> Contact</p></div></div>          </div>
+                <!-- Full Width Wrapper -->
+        <div class="maincontent-full">
+          <!-- Contact Form -->
+          <div id="conctactleft">
+                                    <h4>Get in Touch with Us!</h4>
+<p>blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum</p>
+                                    
+                        <div class="success-message">Your message has been sent successfully. Thank you!</div>
+            
+            <div id="maincontactform">
+              <form action="#" id="contactform"> 
+              <div>
+                <label for="contactname">Name </label>
+                <input type="text" name="contactname" class="textfield" id="contactname" value=""  /><span class="require"> *</span>
+                <label for="contactsubject">Subject </label>
+                <input type="text" name="contactsubject" class="textfield" id="contactsubject" value=""/><span class="require"> *</span>
+                <label for="contactemail">E-mail </label> 
+                <input type="text" name="contactemail" class="textfield" id="contactemail" value="" /><span class="require"> *</span>
+                <label for="contactmessage">Message </label> 
+                <textarea name="contactmessage" id="contactmessage" class="textarea" cols="8" rows="12"></textarea><span class="require"> *</span>
+                <div class="clear"></div>
+                <input type="hidden" name="siteurl" id="siteurl" value="http://imediapixel.com/demo/ecobiz/wp-content/themes/ecobiz" />   
+                <input type="hidden" name="sendto" id="sendto" value="imedia@localhost" />           
+                <a href="#" class="button" id="buttonsend"><span>SEND</span></a>
+                <span class="loading" style="display: none;">Please wait..</span>
+              </div>
+              </form>
+            </div>
+          </div>
+          <!-- Contact Form End -->
           
-             
-          <!-- Sidebar Box -->
-          
-          
-          <div class="sidebar"><div class="sidebartop"></div><div class="sidebarmain"><div id="latestnews_widget-6" class="sidebarcontent widget_latestnews_widget"><h4 class="sidebarheading">Latest News</h4>    <ul class="latestnews">
+          <!-- Contact Address -->
+          <div id="contactright">
+            
+            <div id="map" class="imgbox">
+              <div id="google_map_487" class="google_map" style="width:424px;height:246px;"></div>
+
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+	var tabs = jQuery("#google_map_487").parents('.tabs_container,.mini_tabs_container,.accordion');
+	jQuery("#google_map_487").bind('initGmap',function(){
+		jQuery(this).gMap({
+			zoom: 15,
+			markers:[{
+				address: "",
+				latitude: -7.07219,
+				longitude: 109.25826,
+				html: "Jln. Damai menuju Syurga No. 14,<br/>Jakarta 20035,<br/>Indonesia",
+				popup: true
+			}],
+			controls: {
+	panControl: true,
+	zoomControl: true,
+	mapTypeControl: true,
+	scaleControl: true,
+	streetViewControl: true,
+	overviewMapControl: true
+},
+			maptype: 'ROADMAP',
+			doubleclickzoom:true,
+			scrollwheel:true
+		});
+		jQuery(this).data("gMapInited",true);
+	}).data("gMapInited",false);
+	if(tabs.size()!=0){
+		tabs.find('ul.tabs,ul.mini_tabs,.accordion').data("tabs").onClick(function(index) {
+			this.getCurrentPane().find('.google_map').each(function(){
+				if(jQuery(this).data("gMapInited")==false){
+					jQuery(this).trigger('initGmap');
+				}
+			});
+		});
+	}else{
+		jQuery("#google_map_487").trigger('initGmap');
+	}
+});
+</script>
+            </div>
+                
+            <ul class="contactinfo">
               <li>
-          <a href="http://imediapixel.com/demo/ecobiz/?p=176">Nam sed nibh tellus, eu tempor metus</a>
-          <p class="posteddate">Posted on May 4, 2011</p>
-        </li>
-              <li>
-          <a href="http://imediapixel.com/demo/ecobiz/?p=73">Pellentesque vitae lectus et orci iaculis imperdiet</a>
-          <p class="posteddate">Posted on May 3, 2011</p>
-        </li>
-              <li>
-          <a href="http://imediapixel.com/demo/ecobiz/?p=68">dolor sit amet consectetur adipiscing elit</a>
-          <p class="posteddate">Posted on May 3, 2011</p>
-        </li>
-              <li>
-          <a href="http://imediapixel.com/demo/ecobiz/?p=66">Lorem ipsum dolor sit  consectetur adipiscing elit</a>
-          <p class="posteddate">Posted on May 3, 2011</p>
-        </li>
-             	  </ul>
-    <div class="clear"></div>
-        <a href="http://imediapixel.com/demo/ecobiz/?page_id=6" class="button-more">View All News</a>
-     <div class="clear"></div>
-   </div></div><div class="sidebarbottom"></div></div><div class="sidebar"><div class="sidebartop"></div><div class="sidebarmain"><div id="flickr_widget-4" class="sidebarcontent widget_flickr_widget">	  
-      <!-- Flickr Gallery -->
-        <h4 class="sidebarheading">Flickr Gallery</h4>        <div class="flickrgallery">
-		      <script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=6&amp;display=latest&amp;size=s&amp;layout=x&amp;source=user&amp;user=52617155@N08"></script>	
+              Jln. Damai menuju Syurga No. 14,<br/>Jakarta 20035,<br/>Indonesia</li>
+              <li><strong>Phone</strong> : +62 123456</li>
+                              <li><strong>Fax</strong> : +62 123456</li>
+                            <li><strong>Email</strong> : <a href="mailto:imedia@localhost">imedia@localhost</a><br />
+              <strong>Website</strong> : <a href="http://www.imediapixel.com">www.imediapixel.com</a></li>
+            </ul>      
+            <div class="clear"></div>
+          </div>
+          <!-- Contact Address End -->          
         </div>
-        <div class="clear"></div>
-      <!-- Flickr Gallery End --> 
-</div></div><div class="sidebarbottom"></div></div>  
-          <!-- Sidebar Box End -->
-        </div>
-        <!-- Sidebar End -->    
-        </div>
+        <!-- Full Width Wrapper End -->
+    
+      </div>
       <div class="clear"></div>
     </div>
     

@@ -243,7 +243,7 @@ body {background-image: url(static/wp-content/themes/ecobiz/images/pattern/grid1
      <!-- Footer Menu --> 
      <div class="footermenu"> 
       <ul id="menu-footer-menu" class="">
-       <li id="menu-item-77" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-77"><a href="index">Home</a></li> 
+       <li id="menu-item-77" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-77"><a href="./">Home</a></li> 
        <li id="menu-item-78" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-78"><a href="about">About</a></li> 
        <li id="menu-item-87" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87"><a href="service">Services</a></li>
        <li id="menu-item-79" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-79"><a href="blog">Blog</a></li> 

@@ -2,7 +2,7 @@
 <html lang="zh-CN">
  <head> 
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
-  <title>Customer</title> 
+  <title>Vidio</title> 
   <meta name="generator" content="WordPress 3.5.2" /> 
   <meta name="robots" content="follow, all" /> 
   <link rel="stylesheet" href="static/wp-content/themes/ecobiz/style.css" type="text/css" media="screen" /> 
@@ -72,12 +72,14 @@ body {background-image: url(static/wp-content/themes/ecobiz/images/pattern/grid1
      </div> 
     </div> 
     <!-- Header End  --> 
-                  
+      
+            
       <!-- Page Heading --> 
       <div id="page-heading">
         <img src="http://imediapixel.com/demo/ecobiz/wp-content/themes/ecobiz/images/page-heading.jpg" alt="" />
         <div class="heading-text">
-          <h3>Testimonial</h3>
+          <h3>Portfolio 2 columns</h3>
+          <p>Lorem ipsum dolor sit amet, rutrum lectus non libero molestie pellentesque</p>
         </div>
       </div>
       <!-- Page Heading End -->
@@ -85,90 +87,74 @@ body {background-image: url(static/wp-content/themes/ecobiz/images/pattern/grid1
       
       <div class="center">
                           <div class="breadcrumb">
-            <div class="breadcrumb breadcrumbs"><div class="breadcrumbs-plus"><p><span class="breadcrumbs-title">You are here: </span><a href="http://imediapixel.com/demo/ecobiz/" class="home">Home</a> <span class='separator'>&raquo;</span> Testimonial</p></div></div>          </div>
+            <div class="breadcrumb breadcrumbs"><div class="breadcrumbs-plus"><p><span class="breadcrumbs-title">You are here: </span><a href="http://imediapixel.com/demo/ecobiz/" class="home">Home</a> <span class='separator'>&raquo;</span> <a href="http://imediapixel.com/demo/ecobiz/?page_id=8" title="Portfolio">Portfolio</a> <span class='separator'>&raquo;</span> Portfolio 2 columns</p></div></div>          </div>
                 <!-- Main Content Wrapper -->
-        <div class="maincontent">
-          <h4>What Our Client Says</h4>
-          <ul id="testilist">
-                                        <li>
-            <div class="boximg-blog">
-                            <img src="http://imediapixel.com/demo/ecobiz/wp-content/uploads/2011/05/people1.jpg" alt="" class="boximg-pad" />
-                        </div>
-            <div class="postbox">
-            <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a  lacus arcu, blandit bibendum arcu. Donec vestibulum ullamcorper metus,  sed pharetra massa porta nec. Quisque mollis dignissim urna. Cras tellus  lorem</p>
-</blockquote>
-            <p class="testiname">Bang ALi</p>
-           </div>
-           <div class="spacer"></div>
-          </li>            
-                              <li>
-            <div class="boximg-blog">
-                            <img src="http://imediapixel.com/demo/ecobiz/wp-content/uploads/2011/05/people2.jpg" alt="" class="boximg-pad" />
-                        </div>
-            <div class="postbox">
-            <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a  lacus arcu, blandit bibendum arcu. Donec vestibulum ullamcorper metus,  sed pharetra massa porta nec. Quisque mollis dignissim urna. Cras tellus  lorem</p>
-</blockquote>
-            <p class="testiname">Kata Bapak TEBE</p>
-           </div>
-           <div class="spacer"></div>
-          </li>            
-                              <li>
-            <div class="boximg-blog">
-                            <img src="http://imediapixel.com/demo/ecobiz/wp-content/uploads/2011/05/people3.jpg" alt="" class="boximg-pad" />
-                        </div>
-            <div class="postbox">
-            <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a  lacus arcu, blandit bibendum arcu. Donec vestibulum ullamcorper metus,  sed pharetra massa porta nec. Quisque mollis dignissim urna. Cras tellus  lorem, viverra eget tristique at, scelerisque non nulla.</p>
-</blockquote>
-            <p class="testiname">Mr. Madit Musyawarah</p>
-           </div>
-           <div class="spacer"></div>
-          </li>            
-                              </ul>
+        <div class="maincontent-full">
+                    <h3>Our Best Works</h3>
+<p>Nam in libero vitae neque ultricies pellentesque. Suspendisse in dui eu nibh volutpat condimentum a vitae justo. Vestibulum quis molestie velit. Suspendisse vitae nunc enim. Etiam vehicula nulla non lacus ullamcoper blandit. Cras quis orci vel ipsum iaculis aliquet. Donec sit amet odio sit amet risus iaculis sagittis</p>          
+          <ul class="portfolio-2col">
+                      <li >
+              <div class="portfolio-blockimg">
+                <div class="portfolio-imgbox1">
+                <div class="zoom">
+                                    <a href="http://imediapixel.com/demo/ecobiz/wp-content/uploads/2011/05/slideimage9.jpg" rel="prettyPhoto" title="Portfolio item 1">
+                    <img src="http://imediapixel.com/demo/ecobiz/wp-content/uploads/2011/05/1133324446-6571-424x182.jpg" class="boximg-pad2 fade" alt="" />
+                  </a>
+                                  </div>
+                </div>
+                <h4><a href="http://imediapixel.com/demo/ecobiz/?portfolio=portfolio-item-1">Portfolio item 1</a></h4>
+                <p>Integer sit amet leo urna, a varius tellus. Curabitur non magna nunc, sed pretium elit. Etiam convallis, sem molestie bibendum ...</p>
+                                <a href="http://imediapixel.com/demo/ecobiz/?portfolio=portfolio-item-1" class="button"><span>View Detail<img src="http://imediapixel.com/demo/ecobiz/wp-content/themes/ecobiz/images/arrow_grey.png" alt="" class="readmore"/></span></a>     
+              </div>
+            </li>            
+                      <li class="last">
+              <div class="portfolio-blockimg">
+                <div class="portfolio-imgbox1">
+                <div class="zoom">
+                                    <a href="http://imediapixel.com/demo/ecobiz/wp-content/uploads/2011/05/slideimage9.jpg" rel="prettyPhoto" title="Portfolio item 2">
+                    <img src="http://imediapixel.com/demo/ecobiz/wp-content/uploads/2011/05/1133387918-13181-424x182.jpg" class="boximg-pad2 fade" alt="" />
+                  </a>
+                                  </div>
+                </div>
+                <h4><a href="http://imediapixel.com/demo/ecobiz/?portfolio=portfolio-item-2">Portfolio item 2</a></h4>
+                <p>Integer sit amet leo urna, a varius tellus. Curabitur non magna nunc, sed pretium elit. Etiam convallis, sem molestie bibendum ...</p>
+                                <a href="http://imediapixel.com/demo/ecobiz/?portfolio=portfolio-item-2" class="button"><span>View Detail<img src="http://imediapixel.com/demo/ecobiz/wp-content/themes/ecobiz/images/arrow_grey.png" alt="" class="readmore"/></span></a>     
+              </div>
+            </li>            
+                      <li >
+              <div class="portfolio-blockimg">
+                <div class="portfolio-imgbox1">
+                <div class="zoom">
+                                    <a href="http://imediapixel.com/demo/ecobiz/wp-content/uploads/2011/05/slideimage9.jpg" rel="prettyPhoto" title="Portfolio item 3">
+                    <img src="http://imediapixel.com/demo/ecobiz/wp-content/uploads/2011/05/1133387918-13127-424x182.jpg" class="boximg-pad2 fade" alt="" />
+                  </a>
+                                  </div>
+                </div>
+                <h4><a href="http://imediapixel.com/demo/ecobiz/?portfolio=portfolio-item-3">Portfolio item 3</a></h4>
+                <p>Integer sit amet leo urna, a varius tellus. Curabitur non magna nunc, sed pretium elit. Etiam convallis, sem molestie bibendum ...</p>
+                                <a href="http://imediapixel.com/demo/ecobiz/?portfolio=portfolio-item-3" class="button"><span>View Detail<img src="http://imediapixel.com/demo/ecobiz/wp-content/themes/ecobiz/images/arrow_grey.png" alt="" class="readmore"/></span></a>     
+              </div>
+            </li>            
+                      <li class="last">
+              <div class="portfolio-blockimg">
+                <div class="portfolio-imgbox1">
+                <div class="zoom">
+                                    <a href="http://imediapixel.com/demo/ecobiz/wp-content/uploads/2011/05/slideimage9.jpg" rel="prettyPhoto" title="Portfolio item 4">
+                    <img src="http://imediapixel.com/demo/ecobiz/wp-content/uploads/2011/05/1133387918-1312-424x182.jpg" class="boximg-pad2 fade" alt="" />
+                  </a>
+                                  </div>
+                </div>
+                <h4><a href="http://imediapixel.com/demo/ecobiz/?portfolio=portfolio-item-4">Portfolio item 4</a></h4>
+                <p>Integer sit amet leo urna, a varius tellus. Curabitur non magna nunc, sed pretium elit. Etiam convallis, sem molestie bibendum ...</p>
+                                <a href="http://imediapixel.com/demo/ecobiz/?portfolio=portfolio-item-4" class="button"><span>View Detail<img src="http://imediapixel.com/demo/ecobiz/wp-content/themes/ecobiz/images/arrow_grey.png" alt="" class="readmore"/></span></a>     
+              </div>
+            </li>            
+                    </ul>
           <div class="clear"></div>
+             
         </div>
         <!-- Main Content Wrapper End -->
-        
-                                                
-        <!-- Sidebar -->
-        <div id="sidebar">
-              
-          
-             
-          <!-- Sidebar Box -->
-          
-          
-          <div class="sidebar"><div class="sidebartop"></div><div class="sidebarmain"><div id="latestnews_widget-6" class="sidebarcontent widget_latestnews_widget"><h4 class="sidebarheading">Latest News</h4>    <ul class="latestnews">
-              <li>
-          <a href="http://imediapixel.com/demo/ecobiz/?p=176">Nam sed nibh tellus, eu tempor metus</a>
-          <p class="posteddate">Posted on May 4, 2011</p>
-        </li>
-              <li>
-          <a href="http://imediapixel.com/demo/ecobiz/?p=73">Pellentesque vitae lectus et orci iaculis imperdiet</a>
-          <p class="posteddate">Posted on May 3, 2011</p>
-        </li>
-              <li>
-          <a href="http://imediapixel.com/demo/ecobiz/?p=68">dolor sit amet consectetur adipiscing elit</a>
-          <p class="posteddate">Posted on May 3, 2011</p>
-        </li>
-              <li>
-          <a href="http://imediapixel.com/demo/ecobiz/?p=66">Lorem ipsum dolor sit  consectetur adipiscing elit</a>
-          <p class="posteddate">Posted on May 3, 2011</p>
-        </li>
-             	  </ul>
-    <div class="clear"></div>
-        <a href="http://imediapixel.com/demo/ecobiz/?page_id=6" class="button-more">View All News</a>
-     <div class="clear"></div>
-   </div></div><div class="sidebarbottom"></div></div><div class="sidebar"><div class="sidebartop"></div><div class="sidebarmain"><div id="flickr_widget-4" class="sidebarcontent widget_flickr_widget">	  
-      <!-- Flickr Gallery -->
-        <h4 class="sidebarheading">Flickr Gallery</h4>        <div class="flickrgallery">
-		      <script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=6&amp;display=latest&amp;size=s&amp;layout=x&amp;source=user&amp;user=52617155@N08"></script>	
-        </div>
-        <div class="clear"></div>
-      <!-- Flickr Gallery End --> 
-</div></div><div class="sidebarbottom"></div></div>  
-          <!-- Sidebar Box End -->
-        </div>
-        <!-- Sidebar End -->    
+    
         </div>
       <div class="clear"></div>
     </div>
